@@ -1,0 +1,25 @@
+STUDENT GRADE CALCULATOR - TEST CASES
+
+Test Case 1: Grade A Input: Name = Priya, Marks = 95 Expected: Grade A, Excellent! Outstanding work!
+
+Test Case 2: Grade B Input: Name = Priya, Marks = 85 Expected: Grade B, Very Good! Keep it up!
+
+Test Case 3: Grade C Input: Name = Rahul, Marks = 75 Expected: Grade C, Good job! Keep improving!
+
+Test Case 4: Grade D Input: Name = Amit, Marks = 65 Expected: Grade D, You passed! Work harder next time!
+
+Test Case 5: Grade F Input: Name = Neha, Marks = 40 Expected: Grade F, Don't give up! Learn and try again!
+
+Test Case 6: Minimum Valid Marks Input: Name = Sam, Marks = 0 Expected: Grade F
+
+Test Case 7: Maximum Valid Marks Input: Name = Sam, Marks = 100 Expected: Grade A
+
+Test Case 8: Invalid Marks Above Range Input: Marks = 120, followed by 85 Expected: Reject 120 and ask again; then calculate Grade B.
+
+Test Case 9: Invalid Negative Marks Input: Marks = -5, followed by 75 Expected: Reject -5 and ask again; then calculate Grade C.
+
+Test Case 10: Non-Numeric Input Input: Marks = abc, followed by 90 Expected: Display an error message; then calculate Grade A.
+
+Test Case 11: Decimal Marks Input: Marks = 89.5 Expected: Grade B
+
+Test Case 12: Empty Student Name Input: Empty name, followed by Rahul Expected: Ask for a non-empty name and continue.
